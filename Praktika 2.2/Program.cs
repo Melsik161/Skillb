@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Praktika2._1
+namespace Praktika_2._2
 {
     class Program
     {
@@ -9,9 +9,12 @@ namespace Praktika2._1
             string fullName = "Калашников Виктор Александрович";
             byte age = 25;
             string email = "ak47@skillbox.ru";
-            float bProg = 78.9f, bMat = 83.3f, bFiz = 84.5f;
-            float bSumma = bProg + bMat + bFiz, arefm=bSumma/3;
-            Console.WriteLine($"ФИО: {fullName} \nВозраст: {age} \nEmail: {email} \nБаллы по программированию: {bProg} \nБаллы по математике: {bMat} \nБаллы по физике: {bFiz}");
+            float programmingPoints = 78.9f;
+            float mathematicsPoint = 83.3f;
+            float physicsPoint = 84.5f;
+            float bSumma = programmingPoints + mathematicsPoint + physicsPoint;
+            float arefm = bSumma / 3;
+            Console.WriteLine($"ФИО: {fullName} \nВозраст: {age} \nEmail: {email} \nБаллы по программированию: {programmingPoints} \nБаллы по математике: {mathematicsPoint} \nБаллы по физике: {physicsPoint}");
             Console.WriteLine("Для вывода информации о общей сумме баллов и среднем арефметическом нажмите любую клавишу.");
             Console.ReadKey();
             Console.WriteLine("________________________________________________________________________________________________________________________");
