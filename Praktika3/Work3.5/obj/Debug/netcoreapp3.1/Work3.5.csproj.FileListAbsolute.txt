@@ -1,0 +1,13 @@
+C:\Users\HP\source\repos\Praktika3\Work3.5\bin\Debug\netcoreapp3.1\Work3.5.exe
+C:\Users\HP\source\repos\Praktika3\Work3.5\bin\Debug\netcoreapp3.1\Work3.5.deps.json
+C:\Users\HP\source\repos\Praktika3\Work3.5\bin\Debug\netcoreapp3.1\Work3.5.runtimeconfig.json
+C:\Users\HP\source\repos\Praktika3\Work3.5\bin\Debug\netcoreapp3.1\Work3.5.runtimeconfig.dev.json
+C:\Users\HP\source\repos\Praktika3\Work3.5\bin\Debug\netcoreapp3.1\Work3.5.dll
+C:\Users\HP\source\repos\Praktika3\Work3.5\bin\Debug\netcoreapp3.1\Work3.5.pdb
+C:\Users\HP\source\repos\Praktika3\Work3.5\obj\Debug\netcoreapp3.1\Work3.5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Praktika3\Work3.5\obj\Debug\netcoreapp3.1\Work3.5.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Praktika3\Work3.5\obj\Debug\netcoreapp3.1\Work3.5.AssemblyInfo.cs
+C:\Users\HP\source\repos\Praktika3\Work3.5\obj\Debug\netcoreapp3.1\Work3.5.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Praktika3\Work3.5\obj\Debug\netcoreapp3.1\Work3.5.dll
+C:\Users\HP\source\repos\Praktika3\Work3.5\obj\Debug\netcoreapp3.1\Work3.5.pdb
+C:\Users\HP\source\repos\Praktika3\Work3.5\obj\Debug\netcoreapp3.1\Work3.5.genruntimeconfig.cache
