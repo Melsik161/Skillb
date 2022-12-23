@@ -13,7 +13,7 @@ namespace Work_3._3
             while (i < number)
             {
 
-                if (number % i > 0) ;
+                if (number % i != 0) ;
                 else remains = false;
                 i++;
             }
