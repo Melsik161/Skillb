@@ -6,14 +6,10 @@ namespace Praktika3
     {
         static void Main(string[] args)
         {
-            Console.Write("Введите число: ");
-            int number = int.Parse (Console.ReadLine());
-            switch (number % 2 == 0)
-            {
-                case true: Console.WriteLine("Число {0} четное!", number);  break;
-                default: Console.WriteLine("Число {0} нечетное!", number);
-                    break;
-            }
+            Console.Write("Введите число для проверки на четность: ");
+            int checkNumber = int.Parse (Console.ReadLine());
+            if(checkNumber % 2 == 0) Console.WriteLine("Число {0} четное!", checkNumber);
+            else Console.WriteLine("Число {0} нечетное!", checkNumber);
             Console.Read();
         }
     }

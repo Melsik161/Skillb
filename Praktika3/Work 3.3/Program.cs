@@ -9,19 +9,15 @@ namespace Work_3._3
             bool remains = true;
             Console.Write("Введите целое число: ");
             int number = Convert.ToInt32(Console.ReadLine());
-            int i = 2;
-            while (i < number)
+            int divider = 2;
+            while (divider < number)
             {
-
-                if (number % i != 0) ;
-                else remains = false;
-                i++;
+                if (number % divider != 0) break;
+                remains = false;
+                divider++;
             }
-            switch (remains)
-            {
-                case true: Console.WriteLine("Число {0} простое!", number); break;
-                default: Console.WriteLine("Число {0} составное!", number); break;
-            }
+            if(remains) Console.WriteLine("Число {0} простое!", number);
+            else Console.WriteLine("Число {0} составное!", number);
             Console.ReadKey();
         }
     }

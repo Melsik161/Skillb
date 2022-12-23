@@ -11,3 +11,4 @@ C:\Users\HP\source\repos\Praktika3\Work3.5\obj\Debug\netcoreapp3.1\Work3.5.cspro
 C:\Users\HP\source\repos\Praktika3\Work3.5\obj\Debug\netcoreapp3.1\Work3.5.dll
 C:\Users\HP\source\repos\Praktika3\Work3.5\obj\Debug\netcoreapp3.1\Work3.5.pdb
 C:\Users\HP\source\repos\Praktika3\Work3.5\obj\Debug\netcoreapp3.1\Work3.5.genruntimeconfig.cache
+C:\Users\HP\source\repos\Praktika3\Work3.5\obj\Debug\netcoreapp3.1\Work3.5.csproj.AssemblyReference.cache
