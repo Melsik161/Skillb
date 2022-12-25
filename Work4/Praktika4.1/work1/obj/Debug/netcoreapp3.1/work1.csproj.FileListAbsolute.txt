@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\Praktika4.1\work1\bin\Debug\netcoreapp3.1\work1.exe
+C:\Users\HP\source\repos\Praktika4.1\work1\bin\Debug\netcoreapp3.1\work1.deps.json
+C:\Users\HP\source\repos\Praktika4.1\work1\bin\Debug\netcoreapp3.1\work1.runtimeconfig.json
+C:\Users\HP\source\repos\Praktika4.1\work1\bin\Debug\netcoreapp3.1\work1.runtimeconfig.dev.json
+C:\Users\HP\source\repos\Praktika4.1\work1\bin\Debug\netcoreapp3.1\work1.dll
+C:\Users\HP\source\repos\Praktika4.1\work1\bin\Debug\netcoreapp3.1\work1.pdb
+C:\Users\HP\source\repos\Praktika4.1\work1\obj\Debug\netcoreapp3.1\work1.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Praktika4.1\work1\obj\Debug\netcoreapp3.1\work1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Praktika4.1\work1\obj\Debug\netcoreapp3.1\work1.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Praktika4.1\work1\obj\Debug\netcoreapp3.1\work1.AssemblyInfo.cs
+C:\Users\HP\source\repos\Praktika4.1\work1\obj\Debug\netcoreapp3.1\work1.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Praktika4.1\work1\obj\Debug\netcoreapp3.1\work1.dll
+C:\Users\HP\source\repos\Praktika4.1\work1\obj\Debug\netcoreapp3.1\work1.pdb
+C:\Users\HP\source\repos\Praktika4.1\work1\obj\Debug\netcoreapp3.1\work1.genruntimeconfig.cache
