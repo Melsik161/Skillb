@@ -12,3 +12,17 @@ C:\Users\HP\source\repos\Praktika4.1\Praktika4.1\bin\Debug\netcoreapp3.1\Praktik
 C:\Users\HP\source\repos\Praktika4.1\Praktika4.1\obj\Debug\netcoreapp3.1\Praktika4.1.dll
 C:\Users\HP\source\repos\Praktika4.1\Praktika4.1\obj\Debug\netcoreapp3.1\Praktika4.1.pdb
 C:\Users\HP\source\repos\Praktika4.1\Praktika4.1\obj\Debug\netcoreapp3.1\Praktika4.1.genruntimeconfig.cache
+C:\Users\melsr\Documents\Учеба\Skillb\Work4\Praktika4.1\Praktika4.1\bin\Debug\netcoreapp3.1\Praktika4.1.exe
+C:\Users\melsr\Documents\Учеба\Skillb\Work4\Praktika4.1\Praktika4.1\bin\Debug\netcoreapp3.1\Praktika4.1.deps.json
+C:\Users\melsr\Documents\Учеба\Skillb\Work4\Praktika4.1\Praktika4.1\bin\Debug\netcoreapp3.1\Praktika4.1.runtimeconfig.json
+C:\Users\melsr\Documents\Учеба\Skillb\Work4\Praktika4.1\Praktika4.1\bin\Debug\netcoreapp3.1\Praktika4.1.runtimeconfig.dev.json
+C:\Users\melsr\Documents\Учеба\Skillb\Work4\Praktika4.1\Praktika4.1\bin\Debug\netcoreapp3.1\Praktika4.1.dll
+C:\Users\melsr\Documents\Учеба\Skillb\Work4\Praktika4.1\Praktika4.1\bin\Debug\netcoreapp3.1\Praktika4.1.pdb
+C:\Users\melsr\Documents\Учеба\Skillb\Work4\Praktika4.1\Praktika4.1\obj\Debug\netcoreapp3.1\Praktika4.1.csproj.AssemblyReference.cache
+C:\Users\melsr\Documents\Учеба\Skillb\Work4\Praktika4.1\Praktika4.1\obj\Debug\netcoreapp3.1\Praktika4.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\melsr\Documents\Учеба\Skillb\Work4\Praktika4.1\Praktika4.1\obj\Debug\netcoreapp3.1\Praktika4.1.AssemblyInfoInputs.cache
+C:\Users\melsr\Documents\Учеба\Skillb\Work4\Praktika4.1\Praktika4.1\obj\Debug\netcoreapp3.1\Praktika4.1.AssemblyInfo.cs
+C:\Users\melsr\Documents\Учеба\Skillb\Work4\Praktika4.1\Praktika4.1\obj\Debug\netcoreapp3.1\Praktika4.1.csproj.CoreCompileInputs.cache
+C:\Users\melsr\Documents\Учеба\Skillb\Work4\Praktika4.1\Praktika4.1\obj\Debug\netcoreapp3.1\Praktika4.1.dll
+C:\Users\melsr\Documents\Учеба\Skillb\Work4\Praktika4.1\Praktika4.1\obj\Debug\netcoreapp3.1\Praktika4.1.pdb
+C:\Users\melsr\Documents\Учеба\Skillb\Work4\Praktika4.1\Praktika4.1\obj\Debug\netcoreapp3.1\Praktika4.1.genruntimeconfig.cache

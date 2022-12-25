@@ -7,13 +7,16 @@ namespace Praktika4._1
         static void Main(string[] args)
         {
             Random r = new Random();
-            int a=0, b = 0, summa=0,summa2=0;
+            int numberRows;
+            int numberCol;
+            int summa = 0;
+            int summa2=0;
             Console.Write("Введите количество строк матрицы:");
-            a=Convert.ToInt32(Console.ReadLine());
+            numberRows = Convert.ToInt32(Console.ReadLine());
             Console.Write("Введите количество столбцов матрицы:");
-            b = Convert.ToInt32(Console.ReadLine());
-            int[,] array = new int[a, b];
-            int[,] array2 = new int[a, b];
+            numberCol = Convert.ToInt32(Console.ReadLine());
+            int[,] array = new int[numberRows, numberCol];
+            int[,] array2 = new int[numberRows, numberCol];
 
             for (int i = 0; i < array.GetLength(0); i++)
             {
