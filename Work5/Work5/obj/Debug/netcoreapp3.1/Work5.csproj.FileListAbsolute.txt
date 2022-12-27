@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\Work5\Work5\obj\Debug\netcoreapp3.1\Work5.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Work5\Work5\obj\Debug\netcoreapp3.1\Work5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Work5\Work5\obj\Debug\netcoreapp3.1\Work5.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Work5\Work5\obj\Debug\netcoreapp3.1\Work5.AssemblyInfo.cs
+C:\Users\HP\source\repos\Work5\Work5\obj\Debug\netcoreapp3.1\Work5.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Work5\Work5\bin\Debug\netcoreapp3.1\Work5.exe
+C:\Users\HP\source\repos\Work5\Work5\bin\Debug\netcoreapp3.1\Work5.deps.json
+C:\Users\HP\source\repos\Work5\Work5\bin\Debug\netcoreapp3.1\Work5.runtimeconfig.json
+C:\Users\HP\source\repos\Work5\Work5\bin\Debug\netcoreapp3.1\Work5.runtimeconfig.dev.json
+C:\Users\HP\source\repos\Work5\Work5\bin\Debug\netcoreapp3.1\Work5.dll
+C:\Users\HP\source\repos\Work5\Work5\bin\Debug\netcoreapp3.1\Work5.pdb
+C:\Users\HP\source\repos\Work5\Work5\obj\Debug\netcoreapp3.1\Work5.dll
+C:\Users\HP\source\repos\Work5\Work5\obj\Debug\netcoreapp3.1\Work5.pdb
+C:\Users\HP\source\repos\Work5\Work5\obj\Debug\netcoreapp3.1\Work5.genruntimeconfig.cache
