@@ -6,32 +6,35 @@ namespace Work5._1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите предложение:");
+            Console.Write("Введите предложение:");
             ReverseWords(Console.ReadLine());
+            Console.ReadKey();
 
         }
         static void ReverseWords(string inputPhrase)
         {
             string[] reverse = inputPhrase.Split(' ');
-            string revers = "";
-            Console.WriteLine(reverse.Length);
+            string result = string.Empty;
+            Console.WriteLine("Предложение разбито на слова:");
             for (int i = 0; i < reverse.Length; i++)
             {
-
-                if (i != 0) revers += " " + reverse[reverse.Length - i - 1];
-                else revers += reverse[reverse.Length - i - 1];
-
+                result += reverse[i] + " ";
+                Console.WriteLine(reverse[i]);
             }
-            Reverse(revers);
+            Reverse(result);
         }
         static void Reverse(string text)
         {
-            string[] result = text.Split(' ');
-            for (int i = 0; i < result.Length; i++)
-            {
-                Console.WriteLine(result[i]);
-            }
+            string[] changeWords = text.Split(" ");
+            Console.WriteLine();
+            Console.WriteLine("Предложение перевернуто: ");
+            for (int i = 0; i < changeWords.Length; i++)
+            { 
+                Console.Write(changeWords[changeWords.Length - i - 1] + " ");
 
+            }
+            
+            
         }
 
     }

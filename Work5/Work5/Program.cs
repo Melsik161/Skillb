@@ -18,11 +18,9 @@ namespace Work5
         }
         static void GetWords(string[] text)
         {
-            string word = "П";
             for (int i = 0; i < text.Length; i++)
             {
-                word = text[i].Substring(0, 1).ToUpper() + text[i].Remove(0, 1);
-                Console.WriteLine(word);
+                Console.WriteLine(text[i].Substring(0, 1).ToUpper() + text[i].Remove(0, 1));
             }
             Console.ReadKey();
         }
