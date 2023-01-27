@@ -59,41 +59,6 @@ namespace Work7
             }
         }
         /// <summary>
-        /// Старт программы
-        /// </summary>
-        //public void startProg()
-        //{
-        //    char key;
-        //    Console.ForegroundColor = ConsoleColor.Green;
-        //    Console.WriteLine("Помощь по программе:");
-        //    Console.ResetColor();
-        //    Console.WriteLine("Чтобы посмотреть список всех сотрудников. Нажите кнопку П");
-        //    Console.WriteLine("Посмотреть информацию о сотруднике по его ID. Нажмите кнопку И");
-        //    Console.WriteLine("Хотите добавить нового сотрудника. Нажмите кнопку Д");
-        //    Console.WriteLine("Хотите удалить сотрудника. Нажмите кнопку У");
-        //    Console.WriteLine("Зарузить записи в определенном диапазоне дат. Нажмите кнопку З");
-        //    Console.WriteLine("Хотите закрыть программу. Нажмите лубую другую кнопку");
-
-        //    key = Console.ReadKey(true).KeyChar;
-        //    if (key == 'п' || key == 'g') GetAllWorkers();
-        //    else if (key == 'и' || key == 'b')
-        //    {
-        //        Console.Clear();
-        //        Console.Write("Введите ID сотрудника информация которого нужна: ");
-        //        getStaffId(Convert.ToInt32(Console.ReadLine()));
-        //    }
-        //    else if (key == 'д' || key == 'l') AddWorker();
-        //    else if (key == 'у' || key == 'e')
-        //    {
-        //        Console.Clear();
-        //        Console.WriteLine("Введите ид сотрудника которого хотите удалить: ");
-        //        DeleteWorker(Convert.ToInt32(Console.ReadLine()));
-                
-        //    }
-        //    else if (key == 'з' || key == 'p') GetAllWorkers();
-        //    else Environment.Exit(0);
-        //}
-        /// <summary>
         /// Проверка существования файла
         /// </summary>
         public void checkFile()
@@ -123,7 +88,6 @@ namespace Work7
                 
             Console.WriteLine($"Количество сотрудников:{staff}");
             Console.WriteLine("_________________________________________________________________________________");
-            //startProg();
             return workers;
         }
         /// <summary>
@@ -144,7 +108,6 @@ namespace Work7
             {
                 Console.WriteLine("Такого сотрудника нет!");
             }
-            //startProg();
         }
         public void AddWorker()
         {
@@ -172,7 +135,6 @@ namespace Work7
             Console.ResetColor();
   
             loadStaffs();
-            //startProg();
             
 
         }

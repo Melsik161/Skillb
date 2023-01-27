@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Person name="Мелконян Мелс Леванович">
+  <Adress>
+    <Street>Казахская</Street>
+    <HouseNumber>6</HouseNumber>
+    <FlatNumber>0</FlatNumber>
+  </Adress>
+  <Phones>
+    <MobilePhone>89996974895</MobilePhone>
+    <FlatPhone>2556929</FlatPhone>
+  </Phones>
+</Person>

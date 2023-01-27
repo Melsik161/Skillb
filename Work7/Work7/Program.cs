@@ -8,7 +8,6 @@ namespace Work7
         {
             
             Repository rep = new Repository();
-            Worker 
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("Добро пожаловать в базу данных сотрудников.");
             Console.ResetColor();
@@ -54,14 +53,12 @@ namespace Work7
                     Console.WriteLine("Загрузить по возрасту. Нажмите - 3");
                     Console.WriteLine("Загрузить по росту. Нажмите - 4");
                     Console.WriteLine("Загрузить по дате рождения. Нажмите - 5");
+                    Console.WriteLine("Зарузить записи по выбранной дате. Нажмите кнопку 6");
                     key = Console.ReadKey(true).KeyChar;
-                    if(key == 1 )
+                    if(key == 6 )
                     {
-                        var result = rep.OrderBy(t => rep);
-                        foreach (w FIO in result)
-                        {
-                            Console.WriteLine(rep.ToString());
-                        }
+                        
+                        
                     }
 
                 }

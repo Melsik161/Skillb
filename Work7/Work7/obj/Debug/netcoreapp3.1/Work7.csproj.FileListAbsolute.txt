@@ -12,3 +12,17 @@ C:\Users\melsr\source\repos\Work7\Work7\bin\Debug\netcoreapp3.1\Work7.pdb
 C:\Users\melsr\source\repos\Work7\Work7\obj\Debug\netcoreapp3.1\Work7.dll
 C:\Users\melsr\source\repos\Work7\Work7\obj\Debug\netcoreapp3.1\Work7.pdb
 C:\Users\melsr\source\repos\Work7\Work7\obj\Debug\netcoreapp3.1\Work7.genruntimeconfig.cache
+C:\Users\HP\Documents\GitHub\Skillb\Work7\Work7\bin\Debug\netcoreapp3.1\Work7.exe
+C:\Users\HP\Documents\GitHub\Skillb\Work7\Work7\bin\Debug\netcoreapp3.1\Work7.deps.json
+C:\Users\HP\Documents\GitHub\Skillb\Work7\Work7\bin\Debug\netcoreapp3.1\Work7.runtimeconfig.json
+C:\Users\HP\Documents\GitHub\Skillb\Work7\Work7\bin\Debug\netcoreapp3.1\Work7.runtimeconfig.dev.json
+C:\Users\HP\Documents\GitHub\Skillb\Work7\Work7\bin\Debug\netcoreapp3.1\Work7.dll
+C:\Users\HP\Documents\GitHub\Skillb\Work7\Work7\bin\Debug\netcoreapp3.1\Work7.pdb
+C:\Users\HP\Documents\GitHub\Skillb\Work7\Work7\obj\Debug\netcoreapp3.1\Work7.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\GitHub\Skillb\Work7\Work7\obj\Debug\netcoreapp3.1\Work7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\GitHub\Skillb\Work7\Work7\obj\Debug\netcoreapp3.1\Work7.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\GitHub\Skillb\Work7\Work7\obj\Debug\netcoreapp3.1\Work7.AssemblyInfo.cs
+C:\Users\HP\Documents\GitHub\Skillb\Work7\Work7\obj\Debug\netcoreapp3.1\Work7.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\Skillb\Work7\Work7\obj\Debug\netcoreapp3.1\Work7.dll
+C:\Users\HP\Documents\GitHub\Skillb\Work7\Work7\obj\Debug\netcoreapp3.1\Work7.pdb
+C:\Users\HP\Documents\GitHub\Skillb\Work7\Work7\obj\Debug\netcoreapp3.1\Work7.genruntimeconfig.cache
