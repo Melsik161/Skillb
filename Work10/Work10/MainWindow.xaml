@@ -7,27 +7,32 @@
         mc:Ignorable="d"
         Title="Банк А" Height="800" Width="1200">
     <Grid>
-        <Canvas HorizontalAlignment="Left" Height="256" Margin="616,109,0,0" VerticalAlignment="Top" Width="466" Background="Aqua">
-            <StackPanel Height="198" Canvas.Left="28" Canvas.Top="30" Width="428">
-                <Label x:Name="LSurname" Content="Фамилия" FontSize="22"/>
-                <Label x:Name="LName" Content="Имя" FontSize="22"/>
-                <Label x:Name="LMiddleName" Content="Отчество" FontSize="22"/>
-                <Label x:Name="lNumber" Content="Номер телефона" FontSize="22"/>
-                <Label x:Name="lPassport" Content="Сери, номер паспорта" FontSize="22"/>
-            </StackPanel>
+        <Canvas HorizontalAlignment="Left" Height="256" Margin="522,91,0,0" VerticalAlignment="Top" Width="570" Background="Aqua">
+            <Label Content="Фамилия:" Canvas.Left="68" Canvas.Top="27" Width="98" Height="35" FontSize="20"/>
+            <Label Content="Имя:" Canvas.Left="68" Canvas.Top="67" Width="56" Height="35" FontSize="20"/>
+            <Label Content="Отчество:" Canvas.Left="68" Canvas.Top="102" Width="98" Height="35" FontSize="20"/>
+            <Label Content="Номер телефона:" Canvas.Left="68" Canvas.Top="137" Width="166" Height="35" FontSize="20"/>
+            <Label Content="Паспорт:" Canvas.Left="68" Canvas.Top="172" Width="98" Height="35" RenderTransformOrigin="0.535,-0.529" FontSize="20"/>
+            <Label x:Name="lSurname" Content="" Canvas.Left="171" Canvas.Top="27" Width="305" Height="35" FontSize="20"/>
+            <Label x:Name="lName" Content="" Canvas.Left="124" Canvas.Top="67" Width="281" Height="35" FontSize="20"/>
+            <Label x:Name="lMiddleName" Content="" Canvas.Left="171" Canvas.Top="102" Width="284" Height="35" FontSize="20"/>
+            <Label x:Name="lNumber" Content="" Canvas.Left="239" Canvas.Top="137" Width="166" Height="35" FontSize="20" MouseDoubleClick="lNumber_MouseDoubleClick_1"/>
+            <Label x:Name="lPassport" Content="" Canvas.Left="166" Canvas.Top="172" Width="218" Height="35" RenderTransformOrigin="0.535,-0.529" FontSize="20"/>
         </Canvas>
-        <RadioButton Content="Консультант" HorizontalAlignment="Left" Margin="640,47,0,0" VerticalAlignment="Top" Height="39" Width="219" FontSize="20" IsChecked="True"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="728,493,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Загрузить базу" HorizontalAlignment="Left" Margin="961,27,0,0" VerticalAlignment="Top" Width="201" Height="57" Click="Button_Click"/>
-        <ListBox x:Name="ClientList" HorizontalAlignment="Left" Height="687" Margin="49,47,0,0" VerticalAlignment="Top" Width="403">
+        <RadioButton x:Name="WorkerCons" Content="Консультант" HorizontalAlignment="Left" Margin="640,47,0,0" VerticalAlignment="Top" Height="39" Width="219" FontSize="20" IsChecked="True"/>
+        <TextBox x:Name="EditInform" HorizontalAlignment="Left" Height="34" Margin="660,416,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="242"/>
+        <ListBox x:Name="ClientList" HorizontalAlignment="Left" Height="687" Margin="49,47,0,0" VerticalAlignment="Top" Width="403" SelectionChanged="ClientList_SelectionChanged">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Margin="5">
-                        <TextBlock FontSize="16" Text="{Binding Surname}" HorizontalAlignment="Center" />
+                        <TextBlock FontSize="13" Text="{Binding Surname}" HorizontalAlignment="Center" />
+                        <TextBlock FontSize="13" Text="{Binding Name}" HorizontalAlignment="Center" />
+                        <TextBlock FontSize="13" Text="{Binding middleName}" HorizontalAlignment="Center" />
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
+        <Button x:Name="SaveEdit" Content="Сохранить" HorizontalAlignment="Left" Margin="665,475,0,0" VerticalAlignment="Top" Width="194" Height="54" Click="SaveEdit_Click"/>
 
 
     </Grid>
