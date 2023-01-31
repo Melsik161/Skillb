@@ -24,6 +24,7 @@ namespace Work10
     {
 
         ObservableCollection<Clients> db = new ObservableCollection<Clients>();
+        byte tempClick;
         public MainWindow()
         {
             InitializeComponent();
@@ -54,21 +55,95 @@ namespace Work10
             lMiddleName.Content = db[ClientList.SelectedIndex].middleName;
             lNumber.Content = db[ClientList.SelectedIndex].phoneNumber;
 
-            if (WorkerCons.IsChecked == true) lPassport.Content = "***********";
+            if (Worker.SelectedIndex == 0) lPassport.Content = "***********";
+            else lPassport.Content = db[ClientList.SelectedIndex].Passport;
 
         }
 
         private void SaveEdit_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show($"Номер изменен!\nБыл {lNumber.Content}\nСтал {EditInform.Text}");
-            lNumber.Content = EditInform.Text;
-            db[ClientList.SelectedIndex].phoneNumber = EditInform.Text;
-            EditInform.Clear();
+            switch (tempClick)
+            {
+                case 1:
+                    MessageBox.Show($"Паспорт изменен!\nБыл {lPassport.Content}\nСтал {EditInform.Text}");
+                    lPassport.Content = EditInform.Text;
+                    db[ClientList.SelectedIndex].Passport = EditInform.Text;
+                    EditInform.Clear();
+                    break;
+                case 2:
+                    MessageBox.Show($"Отчество изменено!\nБыло {lMiddleName.Content}\nСтал {EditInform.Text}");
+                    lMiddleName.Content = EditInform.Text;
+                    db[ClientList.SelectedIndex].middleName = EditInform.Text;
+                    EditInform.Clear();
+                    break;
+                case 3:
+                    MessageBox.Show($"Имя изменен!\nБыл {lName.Content}\nСтал {EditInform.Text}");
+                    lName.Content = EditInform.Text;
+                    db[ClientList.SelectedIndex].Name = EditInform.Text;
+                    EditInform.Clear();
+                    break;
+                case 4:
+                    MessageBox.Show($"Фамилия изменена!\nБыл {lSurname.Content}\nСтал {EditInform.Text}");
+                    lSurname.Content = EditInform.Text;
+                    db[ClientList.SelectedIndex].Surname = EditInform.Text;
+                    EditInform.Clear();
+                    break;
+                case 5:
+                    MessageBox.Show($"Номкер изменен!\nБыл {lNumber.Content}\nСтал {EditInform.Text}");
+                    lNumber.Content = EditInform.Text;
+                    db[ClientList.SelectedIndex].phoneNumber = EditInform.Text;
+                    EditInform.Clear();
+                    break;
+            }
         }
 
-        private void lNumber_MouseDoubleClick_1(object sender, MouseButtonEventArgs e)
+        private void lPassport_MouseDoubleClick_1(object sender, MouseButtonEventArgs e)
         {
-            EditInform.Text = lNumber.Content.ToString();
+            if (Worker.SelectedIndex == 1)
+            {
+                EditInform.Text = lPassport.Content.ToString();
+                tempClick = 1;
+            }
+            else MessageBox.Show("Нет прав доступа!");
+        }
+
+        private void lMiddleName_MouseDoubleClick_1(object sender, MouseButtonEventArgs e)
+        {
+            if (Worker.SelectedIndex == 1)
+            {
+                EditInform.Text = lMiddleName.Content.ToString();
+                tempClick = 2;
+            }
+            else MessageBox.Show("Нет прав доступа!");
+        }
+
+        private void lName_MouseDoubleClick_1(object sender, MouseButtonEventArgs e)
+        {
+            if (Worker.SelectedIndex == 1)
+            {
+                EditInform.Text = lName.Content.ToString();
+                tempClick = 3;
+            }
+            else MessageBox.Show("Нет прав доступа!");
+        }
+
+        private void lSurname_MouseDoubleClick_1(object sender, MouseButtonEventArgs e)
+        {
+            if (Worker.SelectedIndex == 1)
+            {
+                EditInform.Text = lSurname.Content.ToString();
+                tempClick = 4;
+            }
+            else MessageBox.Show("Нет прав доступа!");
+        }
+
+        private void lNumber_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            if (Worker.SelectedIndex >= 0)
+            {
+                EditInform.Text = lNumber.Content.ToString();
+                tempClick = 5;
+            }
         }
     }
 }
