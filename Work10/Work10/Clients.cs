@@ -14,7 +14,7 @@ namespace Work10
         public string Name { get; set; }
         public string middleName { get; set; }
         public string phoneNumber { get; set; }
-        string Passport { get; set; }
+        public string Passport { get; set; }
 
         public Clients (int id, string Surname, string Name, string middleName, string phoneNumber, string Passport)
         {
